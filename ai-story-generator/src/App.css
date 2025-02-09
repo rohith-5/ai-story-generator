@@ -1,0 +1,91 @@
+
+
+/* Full-screen container */
+.full-screen-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #2e0057, #aa076b);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom card styling */
+.card-custom {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 25px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Headings */
+h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffdf57;
+}
+
+/* Form groups (spacing between inputs) */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Custom input fields */
+.form-control-custom {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+
+.form-control-custom::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Custom button */
+.btn-custom {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-custom:disabled {
+  background: rgba(255, 255, 255, 0.2);
+  cursor: not-allowed;
+}
+
+.btn-custom:hover {
+  transform: scale(1.05);
+}
+
+/* Generated story container */
+.generated-story {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  text-align: left;
+  color: white;
+  font-size: 16px;
+  max-height: 300px; /* Limit height */
+  overflow-y: auto; /* Add scrollbar for long stories */
+  word-wrap: break-word; /* Ensure words wrap correctly */
+  line-height: 1.6; /* Improve readability */
+}
+
